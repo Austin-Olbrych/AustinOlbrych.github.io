@@ -1,9 +1,37 @@
-a {
-	color: black;
-	text-decoration: underline;
+header .row,
+footer .row {
+  display: flex;
+  align-items: center;
 }
 
-a:hover {
-	color: red;
+header nav {
+  display: flex;
+  justify-content: flex-end;
 }
 
+header p {
+  padding: 0 20px;
+  margin: 0;
+}
+
+header h1 {
+  font-weight: 700;
+  margin: 0;
+}
+
+.header {
+  padding: 20px 0;
+	background-color: gray;
+}
+
+.header .hd-col1, .header .hd-col2, .header .hd-col3 {
+	width: 33%;
+}
+
+.header-title {
+	padding-left: 20px;
+}
+
+.nav-links {
+	justify-content: center;
+}
