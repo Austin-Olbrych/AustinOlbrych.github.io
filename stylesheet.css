@@ -1,37 +1,82 @@
-header .row,
-footer .row {
-  display: flex;
-  align-items: center;
+body {
+	font-family: 'Helvetica';
+	font-size: 25px;
+	background-image: url("gaming-pattern.png");
 }
 
-header nav {
-  display: flex;
-  justify-content: flex-end;
+div.navbar {
+	background: #393939;
+	margin: auto;
+	text-align: center;
+	border-radius: 25px;
+	
+	/* Making Nav sticky */
+	/* position: -webkit-sticky;
+  position: sticky;
+  top: 0; */
 }
 
-header p {
-  padding: 0 20px;
-  margin: 0;
+div.navbar li {
+	display: inline-block;
 }
 
-header h1 {
-  font-weight: 700;
-  margin: 0;
+div.navbar li a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 25px;
+	font-family: 'Helvetica';
+	display: block;
+	padding: 30px 15px;
+  transition: 2s;
 }
 
-.header {
-  padding: 20px 0;
-	background-color: gray;
+div.navbar li a:hover {
+	color: #9b5bcc;
+	background-color: #000;
 }
 
-.header .hd-col1, .header .hd-col2, .header .hd-col3 {
-	width: 33%;
+div.container {
+	width: 60%;
+	margin: auto;
 }
 
-.header-title {
-	padding-left: 20px;
+div.main {
+	background-color: #cecece;
+	width: 100%;
+	margin: auto;
+	padding: 10px 0px;
+	border-radius: 25px;
+	margin-right: 0px;
+	margin-bottom: 30px;
+	text-align: center;
 }
 
-.nav-links {
-	justify-content: center;
+h2 {
+	/* color: #50ed58; */
+	margin: 0px;
+	color: #9b5bcc;
+	font-size: 50px;
+	font-family: 'Trebuchet MS';
+	text-shadow: 2px 2px #000;
+	text-align: center;
+}
+
+img.avatar {
+	border-radius: 50%;
+}
+
+div.projects {
+	background-color: #cecece;
+	float: left;
+	width: 48.5%;
+	padding: 10px 0px;
+	border-radius: 25px;
+}
+
+div.blog {
+	background-color: #cecece;
+	margin-left: 51.5%;
+	width: 48.5%;
+	padding: 10px 0px;
+	border-radius: 25px;
 }
